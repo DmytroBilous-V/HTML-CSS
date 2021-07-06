@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css//reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css">
+    <title>Scopolamint</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="header__container">
+                    <a class="header-logo" href="#">
+                        <img src="./img/logo.png" alt="Logotype">
+                    </a>
+                    <nav class="menu">
+                        <div class="menu__btn" id="burgerBtn">
+                            <span class="menu__btn-line"></span>
+                        </div>
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#" onclick="unShowMenu()">
+                                    HOME
+                                </a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#symptoms" onclick="unShowMenu()">
+                                    Symptoms
+                                </a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#case" onclick="unShowMenu()">
+                                    USE CASES
+                                </a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#treatment" onclick="unShowMenu()">
+                                    Treatment
+                                </a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#side-effects" onclick="unShowMenu()">
+                                    SIDE EFFECTS
+                                </a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#contacts" onclick="unShowMenu()">
+                                    CONTACT US
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="introduction container">
+                <div class="introduction__left-side">
+                    <h1>
+                        <a class="first-heading" href="#">SAY <span class="red-text">YES</span></a>
+                        <a class="second-heading" href="#"><span>to Heartburn treatment</span></a>
+                    </h1>
+                    <p class="introduction__left-content">
+                        Scopolamint is an advantageous medicine that aims to prevent and treat heartburn and other symptoms caused by too much acid in the stomach (acid indigestion).
+                    </p>
+                    <a class="btn-contact" href="#contacts" type="button">
+                        CONTACT US
+                    </a>
+                </div>
+                <div class="introduction__right-side">
+
+                </div>
+            </section>
+            <section class="symptoms container" id="symptoms">
+                <h2>
+                    Your patients are suffering from
+                </h2>
+                <ul class="symptoms__list">
+                    <li class="symptoms__list-item">
+                        <span>
+                            often abdominal pain?
+                        </span>
+                    </li>
+                    <li class="symptoms__list-item">
+                        <span>
+                            ulcer or complication <br /> (bleeding, perforation, obstruction)?
+                        </span>
+                    </li>
+                    <li class="symptoms__list-item">
+                        <span>
+                            NSAID-induced gastrointestinal complications?
+                        </span>
+                    </li>
+                    <li class="symptoms__list-item">
+                        <span>
+                            dyspepsia or peptic ulcer disease?
+                        </span>
+                    </li>
+                </ul>
+            </section>
+            <section class="substance container">
+                <h2>
+                    Active substance detalization
+                </h2>
+                <div class="substance__description">
+                    <div class="substance__description-chart">
+                    </div>
+                    <div class="right-container">
+                        <div class="substance__description-text">
+                            <p><strong>Statistically significant difference</strong> in daytime pain severity at week </p>
+                            <p><strong>Fastiest speed</strong> in blocking H+,K+ ATPase is among the proton pump inhibitor class</p>
+                            <p><strong>Good tolerability</strong> profile</p>
+                        </div>
+                        <a class="btn-info" href="#">
+                            LEARN MORE
+                        </a>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="use-case container" id="case">
+                <h2>
+                    Use cases
+                </h2>
+                <div class="content">
+                    <div class="use-case__item">
+                        <div class="use-case__item_text">
+                            <p class="use-case__item-name">
+                                Leonard, 43
+                            </p>
+                            <h4 class="use-case__item-title">
+                                Peptic ulcer
+                            </h4>
+                            <figure class="use-case__item-avatar-inner">
+                                <img class="use-case__item-avatar" src="./img/mobile/avatar-leonard.jpg" alt="Leonard" />
+                            </figure>
+                            
+                            <ul class="item__list">
+                                <li class="item__list-item">
+                                    <span>
+                                        Complains of upper abdominal pain, heartburn, and nausea, and sometimes vomiting
+                                    </span>
+                                </li>
+                                <li class="item__list-item">
+                                    <span>
+                                        He was using Synflex (naproxen) to relieve pain from past 2 days, but no significant effect
+                                    </span>
+                                </li>
+                                <li class="item__list-item">
+                                    <span>
+                                        Pain aggravated at night after taking large meal
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <figure class="use-case__item_photo">
+                            <img src="./img/desctop/leonard-photo.png" alt="Leonard Photo" />
+                        </figure>
+                    </div>
+                    <div class="use-case__item">
+                        <figure class="use-case__item_photo">
+                            <img src="./img/desctop/rebecca-photo.png" alt="Rebecca Photo" />
+                        </figure>
+                        <div class="use-case__item_text">
+                            <p class="use-case__item-name">
+                                REBECCA, 50
+                            </p>
+                            <h4 class="use-case__item-title">
+                                Peptic NSAID-Related Ulcer
+                            </h4>
+                            <figure class="use-case__item-avatar-inner">
+                                <img class="use-case__item-avatar" src="./img/mobile/avatar-rebecca.jpg" alt="Rebecca" />
+                            </figure>
+                            <ul class="item__list">
+                                <li class="item__list-item">
+                                    <span>
+                                        Has been admitted to hospital with an acute, upper gastrointestinal bleed
+                                    </span>
+                                </li>
+                                <li class="item__list-item">
+                                    <span>
+                                        Had been using naproxen 500 mg twice daily over the past 2 years, with adequate control of her symptoms of osteoarthritis
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="use-case__item">
+                        <div class="use-case__item_text">
+                            <p class="use-case__item-name">
+                                Michael, 31
+                            </p>
+                            <h4 class="use-case__item-title">
+                                Nonerosive Reflux Disease (NERD)
+                            </h4>
+                            <figure class="use-case__item-avatar-inner">
+                                <img class="use-case__item-avatar" src="./img/mobile/avatar-michael.jpg" alt="Michael" />
+                            </figure>
+                            <ul class="item__list">
+                                <li class="item__list-item">
+                                    <span>
+                                        Periodically took different medications on his own without a convincing effect
+                                    </span>
+                                </li>
+                                <li class="item__list-item">
+                                    <span>
+                                        Last time took Nexium 20 mg once a day 30 minutes before meals during 3 days
+                                    </span>
+                                </li>
+                                <li class="item__list-item">
+                                    <span>
+                                        Gave up because of effect absence
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <figure class="use-case__item_photo">
+                            <img src="./img/desctop/michael-photo.png" alt="Michael Photo" />
+                        </figure>
+                    </div>
+                </div>
+                <div class="btn-inner">
+                    <a class="btn-info" href="#">
+                        GET MORE CASES
+                    </a>
+                </div>
+            </section>
+            <section class="treatment container" id="treatment">
+                <h2>
+                    Treatment
+                </h2>
+                <div class="content">
+                    <article class="treatment__option">
+                        <a class="option_10mg-logo"></a>
+                        <div class="option_description">
+                            <h3 class="option_title">
+                                <a href="#">
+                                    Once daily on demand
+                                </a>
+                            </h3>
+                            <p>
+                                Scopolamint 10mg is prescribed to prevent heartburn and relief abdominal pain.
+                            </p>
+                            <p class="inside">
+                                Is used once daily on demand.
+                            </p>
+                            <p>
+                                1 pack consists of 40 pills (4 plastins with 10 pills per each)
+                            </p>
+                        </div>
+                    </article>
+                    <article class="treatment__option">
+                        <a class="option_20mg-logo"></a>
+                        <div class="option_description">
+                            <h3 class="option_title">
+                                <a href="#">
+                                    Once daily 8 weeks
+                                </a>
+                            </h3>
+                            <p>
+                                Scopolamint 20mg is prescribed to treat chronic hearburn, ulcer, dyspepsia, and other gastric diseases caused by too much acid in the stomach.
+                            </p>
+                            <p class="inside">
+                                Is used once daily on 8 weeks period.
+                            </p>
+                            <p>
+                                1 pack consists of 40 pills (4 plastins with 10 pills per each)
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="description container">
+                <p class="container">
+                    Scopolamint is a modern advantageous preparate that is aimed to prevent and treat heartburn and other symptoms caused by too much acid in the stomach (acid indigestion). Scopolamint is aimed for the treatment of heartburn, ulcers, and prevention of gastric diseases. The main active ingredient is rabeprazole sulfone. The drug has no contraindications and can be used by adults and children over 12 years. Released on prescription.
+                </p>
+                <div class="btn-inner">
+                    <a class="btn-info" href="#" download="file">
+                        DOWNLOAD PRESCRIBING INFORMATION
+                    </a>
+                </div>
+            </section>
+            <section class="effects container" id="side-effects">
+                <h2>
+                    Side effects and Precautions
+                </h2>
+                <div class="text container">
+                    <p>
+                        Rarely, headache or abdominal pain might occur. In such cases, it is strongly recommended to contact a doctor or pharmacist promptly.
+                    </p>
+                    <p class="inside">
+                        The list of rare side effects includes symptoms of a low magnesium blood level, signs of lupus, severe intestinal condition, diarrhea, abdominal or stomach pain/ cramping fever.
+                    </p>
+                    <p class="inside">
+                        Rarely, it might cause vitamin B-12 deficiency (unusual weakness, sore tongue, or numbness/ tingling of the hands/feet).
+                    </p>
+                    <p class="inside">
+                        The allergic reaction is extremely rare but might cause: rash, itching/swelling, severe dizziness, trouble breathing, signs of kidney problems, such as a change in the amount of urine.
+                    </p>
+                    <p>
+                        <strong>
+                            In all cases of side effects, it is strongly recommended the treatment course and contact a doctor.
+                        </strong>
+                    </p>
+                </div>
+            </section>
+            <section class="more-info container" id="contacts">
+                <h2>
+                    Learn more about the effective treatment of heartburn
+                </h2>
+                <form action="#" name="form_contacts" method="post">
+                    <fieldset class="form-contacts">
+                        <legend>
+                            Contact our representative to unveil more use cases in successful heartburn treatment
+                        </legend>
+                        <div class="form-contacts_input">
+                            <label for="user_name">
+                                Full Name
+                            </label>
+                            <input class="input_user-data" id="user_name" type="text" />
+                        </div>
+                        <div class="form-contacts_input">
+                            <p class="gender__group-title">
+                                Gender
+                            </p>
+                            <div class="gender__group">
+                                <label for="user_male">
+                                <input class="gender-check" id="user_male" name="user-check" type="radio" value="male" />
+                                <span class="gender-check_style"></span>
+                                    Male
+                                </label>
+                                <label for="user_female">
+                                <input class="gender-check" id="user_female" name="user-check" type="radio" value="female" />
+                                <span class="gender-check_style"></span>
+                                    Female
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-contacts_input">
+                            <label for="user_email">
+                                E-mail
+                            </label>
+                            <input class="input_user-data" id="user_email" type="email" />
+                        </div>
+                        <div class="form-contacts_input-subscribe">
+                            <label>
+                                <input class="subscribe-check" type="checkbox" />
+                                <span class="subscribe-check_style"></span>
+                                Subscribe to our newsletter
+                            </label>
+                        </div>
+                    </fieldset>
+                    <div class="btn-inner">
+                        <button class="btn-contact" type="submit">
+                            CONTACT US
+                        </button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer class="container">
+            <div class="footer-container">
+                <div class="footer__left-side">
+                    <address>
+                        Lõõtsa St. 2a, Lasnamäe, Tallinn, Harju county <br />
+                        Estonia, 11415 <br />
+                        <a href="tel:+3726980460">
+                            +37 269 80 460
+                        </a>
+                    </address>
+                    <a class="company-link" href="http://viseven.com">
+                        viseven.com
+                    </a>
+                    <a class="company-link-mobile" href="http://webpage.com">
+                        webpage.com
+                    </a>
+                    <ul class="conditions">
+                        <li>
+                            <a href="#">
+                                Terms and conditions
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Privacy policy
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__right-side">
+                    <a class="logo" href="#">
+                        <img src="./img/footer-logo.png" alt="Logotype">
+                    </a>
+                    <ul class="block_icon-link">
+                        <li>
+                            <a class="block_icon-item facebook-ic" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="block_icon-item linkedin-ic" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="block_icon-item twitter-ic" href="#"></a>
+                        </li>
+                        <li>
+                            <a class="block_icon-item youtube-ic" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_info">
+                <p>
+                    The product information provided by this site is intended only for health care professionals. Copyright © 2020 Viseven Europe OÜ, All rights reserved
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="./javascript/index.js"></script>
+</body>
+</html>

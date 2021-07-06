@@ -1,0 +1,293 @@
+@media(max-width:1120px) {
+    h1 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .more-info.container,
+    .container {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .menu__list-item {
+        padding: 0px 8px;
+    }
+    .first-heading {
+        font-size: 118px;
+        line-height: 122px;
+    }
+}
+@media (max-width: 1040px) {
+    .first-heading {
+        font-size: 110px;
+        line-height: 124px;
+    }
+}
+@media(max-width:980px) {
+    h1 {
+        font-size: 40px;
+        line-height: 56px;
+        text-align: center;
+    }
+    .first-heading {
+        font-size: 98px;
+        line-height: 100px;
+    }
+    .introduction__left-side {
+        padding: 30px 0px 37px;
+    }
+    .menu__list-item {
+        padding: 0px 5px;
+    }
+    .use-case .content .use-case__item .use-case__item_text:nth-child(2) {
+        padding-left: 10px;
+    }
+    .more-info.container,
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .item__list-item::before {
+        margin-right: 10px;
+    }
+    .symptoms__list-item {
+        width: 360px;
+    }
+    .symptoms__list-item span {
+        width: 290px;
+    }
+}
+@media(max-width:880px) {
+    .menu__list {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        background-color: var(--section-grey-bg);
+        z-index: -1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        transform: translateY(-100%);
+        transition: transform .5s;
+        padding: 72px 20px;
+    }
+    .menu__list-active {
+        transform: translateY(0);
+    }
+    .menu__btn {
+        display: block;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        padding: 0px;
+        cursor: pointer;
+    }
+    .menu__btn::before,
+    .menu__btn::after {
+        content: '';
+        width: 24px;
+        height: 2px;
+        background-color: var(--checkbox-border-color);
+        display: block;
+        transition: transform 0.3s;
+    }
+    .menu__btn-line {
+        display: block;
+        width: 24px;
+        height: 2px;
+        background-color: var(--checkbox-border-color);
+        opacity: 1;
+        margin: 5px 0px;
+    }
+    .menu__btn.menu__btn_active .menu__btn-line {
+        opacity: 0;
+    }
+    .menu__btn.menu__btn_active::before{
+        transform: translateY(6px) rotate(135deg);
+    }
+    .menu__btn.menu__btn_active::after{
+        transform: translateY(-8px) rotate(-135deg);
+    }
+    .more-info.container,
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .introduction {
+        flex-direction: column;
+        align-items: center;
+        max-height: none;
+    }
+    .introduction__left-side {
+        width: 100%;
+        max-width: none;
+        padding: 60px 0px 67px;
+        text-align: center;
+    }
+    .introduction__right-side {
+        width: 100%;
+        position: inherit;
+    }
+}
+@media(max-width:780px) {
+    .symptoms__list-item {
+        width: 320px;
+    }
+    .symptoms__list-item span {
+        width: 250px;
+    }
+    .substance__description {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+    }
+    .substance__description-chart {
+        margin-bottom: 40px;
+    }
+    .substance .right-container {
+        width: auto;
+        text-align: center;
+    }
+    .treatment__option {
+        width: 100%;
+    }
+    .treatment .content {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+    }
+    .more-info h2 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+@media(max-width:700px) {
+    .footer-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footer__right-side {
+        margin-bottom: 40px;
+    }
+    .footer__left-side {
+        text-align: center;
+    }
+    .conditions {
+        flex-direction: column;
+    }
+    .conditions li {
+        padding: 0;
+    }
+    .conditions li:last-child {
+        margin-top: 7px;
+    }
+}
+@media(max-width:580px) {
+    section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .first-heading {
+        font-size: 64px;
+        line-height: 68px;
+    }
+    .introduction__left-side {
+        padding: 40px 0px 60px;
+    }
+    .btn-info,
+    .btn-contact {
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .use-case__item {
+        flex-direction: column;
+    }
+    .use-case .btn-inner {
+        padding: 30px 20px 0px 20px;
+    }
+    .symptoms__list-item {
+        width: 250px;
+        padding-top: 40px;
+    }
+    .symptoms__list-item span {
+        padding-left: 70px;
+    }
+    .symptoms__list-item span::before {
+        margin-left: -70px;
+    }
+    .use-case__item-name,
+    .use-case__item-title {
+        text-align: center;
+    }
+    .use-case__item-title {
+        max-width: 250px;
+    }
+    .use-case__item_text {
+        align-items: center;
+    }
+    .use-case__item .item__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .use-case .content .use-case__item .use-case__item_text:nth-child(2) {
+        padding-left: 0px;
+    }
+    .more-info.container,
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .use-case.container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .introduction__right-side {
+        width: 360px;
+        height: 360px;
+        background-image: url(../img/mobile/introduction-img-mb.jpg);
+    }
+    .substance__description-chart {
+        width: 257px;
+        height: 240px;
+        background-image: url(../img/mobile/subtraction-chart-mb.png);
+    }
+    .use-case__item-avatar-inner {
+        display: block;
+    }
+    .use-case__item-avatar {
+        width: 100%;
+    }
+    .use-case__item_photo {
+        display: none;
+    }
+    .option_20mg-logo,
+    .option_10mg-logo {
+        width: 360px;
+        height: 240px;
+    }
+    .option_10mg-logo {
+        background-image: url('../img/mobile/scopo-10.png');
+    }
+    .option_20mg-logo {
+        background-image: url('../img/mobile/scopo-20.png');
+    }
+    .form-contacts {
+        padding: 10px 0px;
+    }
+    .company-link {
+        display: none;
+    }
+    .company-link-mobile {
+        display: block;
+    }
+}
+@media(max-width:380px) {
+    .red-text {
+        display: block;
+    }
+    .use-case__item .item__list-item span {
+        width: 250px;
+    }
+}
